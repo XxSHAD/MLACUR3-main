@@ -1,0 +1,105 @@
+.bookingBlock1 {
+  background-color: #f5f4f4;
+  height: 185px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for Order ID and AED */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #8d8d8e;
+  padding-bottom: 5px;
+}
+
+/* Style for Order ID */
+.head1 {
+  font-weight: 600;
+  margin-top: 0; /* Remove top margin */
+  margin-bottom: 0;
+  color: #8d8d8e;
+  font-size: 19px;
+  line-height: normal;
+  margin-right: 5px;
+}
+
+/* Style for AED */
+.head2 {
+  font-weight: 600;
+  margin-top: 0; /* Remove top margin */
+  margin-bottom: 0;
+  color: #8d8d8e;
+  font-size: 19px;
+  line-height: normal;
+  margin-left: 5px;
+}
+
+.head3{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #8d8d8e;
+  margin: 5px 0; /* Add margin to separate the line from the content */
+}
+
+.textcolor1 {
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #8d8d8e;
+  font-size: 17px;
+  line-height: normal;
+}
+
+.textcolor2 {
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #8d8d8e;
+  font-size: 17px;
+  line-height: normal;
+}
+
+.date1,
+.date2,
+.date {
+  margin: 0;
+}
+
+/* Arrange pickup date and emirate in the same line */
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Arrange delivery date and status in the same line */
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-price {
+  margin-top: 7px;
+  margin-left: 230px;
+}
+
+/* Style for view button */
+.viewButton {
+  margin-top: auto; /* Push the view button to the end of the container */
+}
+
+/* Add a line after Order ID and AED */
+.orderId {
+  display: flex;
+  align-items: center;
+}
+
+
